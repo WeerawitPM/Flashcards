@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="image">
+    <file>Picture/btn_ae.png</file>
+    <file>Picture/btn_fj.png</file>
+    <file>Picture/btn_ko.png</file>
+    <file>Picture/btn_pt.png</file>
+    <file>Picture/btn_uz.png</file>
+    <file>Picture/play_menu.jpg</file>
+    <file>Picture/main_menu.jpg</file>
+    <file>Picture/u_z.jpg</file>
+    <file>Picture/p_t.jpg</file>
+    <file>Picture/cards.png</file>
+    <file>Picture/k_o.jpg</file>
+    <file>Picture/f_j.jpg</file>
+    <file>Picture/a_e.jpg</file>
+    <file>Picture/add.png</file>
+    <file>Picture/back.png</file>
+    <file>Picture/bin.png</file>
+    <file>Picture/play.png</file>
+    <file>Picture/search.png</file>
+  </qresource>
+</RCC>

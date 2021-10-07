@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Play_UZ</class>
+ <widget class="QMainWindow" name="Play_UZ">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Play U-Z</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="vocab_pic1.qrc">
+    <normaloff>:/image/Picture/cards.png</normaloff>:/image/Picture/cards.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/image/Picture/play_menu.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_play">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>400</y>
+      <width>88</width>
+      <height>88</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;กดปุ่มเพื่อเล่นสุ่มคำศัพท์&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/image/Picture/play.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_correct">
+    <property name="geometry">
+     <rect>
+      <x>232</x>
+      <y>790</y>
+      <width>421</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 25pt &quot;Mitr SemiBold&quot;;
+	color: rgb(255, 255, 255);
+	background: #009933;
+}
+QPushButton:pressed {
+    background-color: #009960;
+}</string>
+    </property>
+    <property name="text">
+     <string>CORRECT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_back">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>93</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;กดปุ่มเพื่อกลับหน้าแรก&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/image/Picture/back.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_show">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>500</y>
+      <width>321</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 25pt &quot;Mitr SemiBold&quot;;
+	color: dark;
+	background: transparent;
+}
+QPushButton:pressed {
+    background-color: #a3ffdd;
+}</string>
+    </property>
+    <property name="text">
+     <string>SHOW ANSWER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_incorrect">
+    <property name="geometry">
+     <rect>
+      <x>809</x>
+      <y>790</y>
+      <width>421</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 25pt &quot;Mitr SemiBold&quot;;
+	color: rgb(255, 255, 255);
+	background: #CC0033;
+}
+QPushButton:pressed {
+    background-color: #CC0050;
+}</string>
+    </property>
+    <property name="text">
+     <string>INCORRECT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_question">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>310</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Mitr SemiBold&quot;;
+background: transparent;</string>
+    </property>
+    <property name="text">
+     <string>Question</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_answer">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>620</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Mitr SemiBold&quot;;
+background: transparent;</string>
+    </property>
+    <property name="text">
+     <string>Answer</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_score">
+    <property name="geometry">
+     <rect>
+      <x>1457</x>
+      <y>385</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 40pt &quot;Mitr SemiBold&quot;;
+background: transparent;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="vocab_pic1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Menu</class>
+ <widget class="QMainWindow" name="Main_Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainMenu</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="vocab_pic1.qrc">
+    <normaloff>:/image/Picture/cards.png</normaloff>:/image/Picture/cards.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/image/Picture/main_menu.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_AE">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>320</y>
+      <width>296</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background:transparent;
+	background-image: url(:/image/Picture/btn_ae.png);
+}
+QPushButton:pressed {
+    background-color: #8DC68F;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_FJ">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>320</y>
+      <width>296</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background:transparent;
+	background-image: url(:/image/Picture/btn_fj.png);
+}
+QPushButton:pressed {
+    background-color: #8DC68F;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_KO">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>320</y>
+      <width>296</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background:transparent;
+	background-image: url(:/image/Picture/btn_ko.png);
+}
+QPushButton:pressed {
+    background-color: #8DC68F;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_PT">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>620</y>
+      <width>296</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background:transparent;
+	background-image: url(:/image/Picture/btn_pt.png);
+}
+QPushButton:pressed {
+    background-color: #8DC68F;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_UZ">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>620</y>
+      <width>296</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background:transparent;
+	background-image: url(:/image/Picture/btn_uz.png);
+}
+QPushButton:pressed {
+    background-color: #8DC68F;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="vocab_pic1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
